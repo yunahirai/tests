@@ -1,0 +1,16 @@
+<div class="title">
+<h1>プログラミング言語テスト</h1>
+</div>
+<div class="message">
+<p>その他のプログラミング言語</p>
+</div>
+
+<div class="question">
+<h2>問題</h2>
+<%= @test %>
+</div>
+
+<div class="button">
+<%= button_to"次へ",{controller:'home',action:"others"}, {method: :get}%>
+<%= button_to"ホームに戻る",{controller:'home',action:"top"}, {method: :get}%>
+</div>
